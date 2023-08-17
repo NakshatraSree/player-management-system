@@ -1,0 +1,120 @@
+:root {
+    --primary-color: rgba(0, 0, 0, 0.82);
+    --secondary-color: #fff;
+    --color1: rgba(0, 0, 0, 0.82);
+    --op1: 0.82;
+    --op2: 0.9;
+    --op3: 0.85;
+  }
+  body, html{
+    font-family:"Lato", sans-serif;
+    color:var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .bimg1, .bimg2, .bimg3, .bimg4{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    min-width: 98.70vw;
+  }
+  .bimg1{
+    background-image:url('img/bg1.jpg');
+    min-height:100%;
+    opacity:var(--op1);
+  }
+  .bimg2{
+    background-image:url('img/bg2.jpg');
+    min-height:25vw;
+    opacity:var(--op2);
+  }
+  .bimg3{
+    background-image:url('img/bg3.jpg');
+    min-height:25vw;
+    opacity:var(--op3);
+  }
+  .bimg4{
+    background-image:url('img/bg4.jpg');
+    min-height:25vw;
+    opacity:var(--op3);
+  }
+  .btext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:2.109375vw;
+    letter-spacing:0.625vw;
+    text-transform:uppercase;
+  }
+  .btext .border{
+    background-color:var(--color1);
+    color:var(--secondary-color);
+    padding:1.5625vw;
+  }
+  .btext .border.trans{
+    background-color:transparent;
+    color: #fff;
+  
+  }
+  table{
+    border-spacing: 3.90625vw;
+    border-collapse: separate;
+  }
+  section{
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  .cursor{
+    display: inline-block;
+    width: 0.15625vw;
+    height: 2.22vw;
+    background-color: #fff;
+    margin-left:  0.4vw;
+    animation: blink .6s linear infinite alternate;
+  }
+  @keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+  h3 {
+    font-size: 1.4625vw;
+  }
+  p {
+    font-size: 1.25vw;
+  }
+  big {
+    font-size: 1.5vw;
+  }
+  h5 {
+    font-size: 1.0375vw;
+  }
+  main img {
+    box-shadow: 0 0 0.390625vw 0.390625vw rgba(155, 155, 155, 0.7);
+  }
+  .hder {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 1.4vw;
+  }
+  #icon {
+    height: 1.953125vw;
+    padding: 1.5625vw 2.1875vw;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .light {
+    --primary-color: aliceblue;
+    --secondary-color: rgb(37, 37, 37);
+    --color1: #b2e5ed;
+    --op1:0.78;
+    --op2:0.85;
+    --op3:0.8;
+  }

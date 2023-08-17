@@ -1,0 +1,43 @@
+
+<DOCTYPE! html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="description" content="Group 3 - Player Management System"/>
+            <meta name="author" content="Group 3"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Player Management System</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body  style="padding: 0; margin: 0;">
+            <header>
+                <div class="bimg1">
+                    <p class="hder">
+                        <a href="RR.html" style="color: #fff; text-decoration: none;" ><b>Players</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                       
+                        <a href="Main Login portal.html" style="color: #fff; text-decoration: none;"><b>Login</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img id="icon"  src="img/light.png" align="right" />
+                    </p>
+                    <div class="btext">
+                        <span class="border">
+                            Player Management System
+                        </span>
+                    </div>
+                </div>
+       
+    
+            <script>
+                var icon = document.getElementById("icon");
+                icon.onclick = function(){
+                    document.body.classList.toggle("light");
+                    if(document.body.classList.contains("light")){
+                        icon.src= "img/dark.png";
+                        }
+                    else{
+                            icon.src = "img/light.png";
+                        }
+                    }           
+            </script>
+    
+        </body>
+    </html>

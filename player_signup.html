@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Login  </title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-with-prefix.css">
+    <style>
+        .srouce{
+            text-align: center;
+            color: black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="srouce"><h1>Player Sign IN</h1></div>
+
+            <div class="form-body">
+               
+
+                <form action="player_signup.php" method="post" class="the-form">
+
+                    <label for="username">User name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                    <label for="player_id">Player ID</label>
+                    <input type="text" name="player_id" id="player_id" placeholder="Enter your player_id" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    <label for ="player_name">Player_name</label>
+                     <input type="text" name="player_name" id="player_name" placeholder="Enter your name" required />
+                     <label for ="nature">nature</label>
+                     <input type="text" name="nature" id="nature" placeholder="Nature of the player" required />
+                     <label for="nationality">nationality</label>
+                     <input type="text" name="nationality" id="nationality" placeholder="Enter your nationality" required>
+                     <label for="fixed_price">fixed_price</label>
+                    <input type="text" name="fixed_price" id="fixed_price" placeholder="Enter your fixed_price" required>
+                    <label for="age">age</label>
+                    <input type="text" name="age" id="age" placeholder="Enter your age" required>
+                    <label for="record">record</label>
+                     <input type="text" name="record" id="record" placeholder="Enter your record" required>
+                     <label for="previous_franchise">previous_franchise</label>
+                     <input type="text" name="previous_franchise" id="previous_franchise" placeholder="Enter your previous_franchise" required>
+                     <label for="batting">batting</label>
+                     <input type="text" name="batting" id="batting" placeholder="batting score" required>
+                     <label for="bowling">bowling</label>
+                    <input type="text" name="bowling" id="bowling" placeholder="bowling score" required>
+                    <label for="fielding">fielding</label>
+                    <input type="text" name="fielding" id="fielding" placeholder="fielding score" required>
+                    <label for="wicket_keeping">wicket_keeping</label>
+                    <input type="text" name="wicket_keeping" id="wicket_keeping" placeholder="wicket_keeping score" required>
+                    <label for="admin_id">admin_id</label>
+                     <input type="text" name="admin_id" id="admin_id" placeholder="Enter your admin_id" required>
+                     <label for="retained">retained</label>
+                     <input type="text" name="retained" id="retained" placeholder="Enter your retained" required>
+                    <input type="submit" value="Sign In">
+
+                </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.home{
+    border: 1px solid black;
+    display:flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 2;
+    
+
+}
+.grid{
+    display: block;
+    padding:20px;
+    grid-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: max-content ;
+    position: relative;
+
+
+}
+.col{
+        background-color: rgb(22, 20, 20);
+        margin-bottom: 20px;
+        padding: 20px;
+        color: white;
+        Font-weight: bold;
+        Font-size:16px;
+     }
+   .bg{
+   background-image:url('img/bg7.jpg');
+   background-repeat: repeat;
+   background-color: black;
+   
+  
+   }
+   .col1{
+    background-color: rgb(22, 20, 20);
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    Font-weight: bold;
+    Font-size:20px;
+   }

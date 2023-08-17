@@ -1,0 +1,90 @@
+*{
+  
+  margin:0% ;
+  padding: 0% ;
+}
+html,body{
+    background-color:black;
+    height: 100%;
+    background-image: url("img/bg8.jpg");
+        background-size: cover;
+}
+
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    transform: translateY(17vw);
+    
+     
+    
+}
+
+.navbar{
+        background-color: rgb(6, 6, 7);
+        width: 100%;
+        color: aliceblue;
+        float: left;
+        font-size: 1.1vw;
+    }
+    .navbutton, .navdropdown{
+        background-color: rgb(6, 6, 7);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 0.8vw 0.6vw;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Staatliches', cursive;
+        letter-spacing: 0.2vw;
+        position: relative;
+        
+    }
+    .navbutton{
+        width:7.5vw;
+    }
+    .navdropdown{
+        display:none;
+        position: absolute;
+        z-index: 1;
+    }
+    .navbutton:hover{
+        background-color: rgb(46, 45, 45);
+    }
+    .navbutton:hover .navdropdown{
+        display: block;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .button{
+        background-color:rgba(255, 255, 255, 0.795) ;
+        border: none;
+        border-radius: 0.5vw;
+        color: rgb(0, 0, 0);
+        padding: 0.8vw 1.3vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5vw;
+        margin: 0.26vw 0.14vw;
+        cursor: pointer;
+        letter-spacing: 0.2vw;
+    }
+    .button:hover{background-color: rgba(0, 0, 0, 0.507);color: rgb(255, 255, 255);transition: 1s;}
+
+    
+    .bg{
+        background-image: url("img/bg8.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height:100%;
+        width: auto;
+    }
+    
+    .bg1{
+        background-color:rgba(0, 0, 0, 0.705) ;
+        height: 100%;
+        
+    }

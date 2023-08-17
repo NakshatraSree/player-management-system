@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchise Login  </title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-with-prefix.css">
+    <style>
+        .srouce{
+            text-align: center;
+            color:black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="srouce"><h1>Franchise Sign In</h1></div>
+
+            <div class="form-body">
+               
+
+                <form action="franchise_signup.php" method="post" class="the-form">
+
+                    <label for="username">User name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                    <label for="franchise_id">Franchise ID</label>
+                    <input type="text" name="franchise_id" id="franchise_id" placeholder="Enter your franchise_id" required> 
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    <label for="franchise_name">franchise_name</label>
+                    <input type="text" name="franchise_name" id="franchise_name" placeholder="Enter your name" required>
+                    <label for="budget">budget</label>
+                    <input type="text" name="budget" id="budget" placeholder="Enter your budget" required>
+                    <label for="owner">owner</label>
+                    <input type="text" name="owner" id="owner" placeholder="Enter your owner" required>
+                    <label for="admin_id">admin_id</label>
+                    <input type="text" name="admin_id" id="admin_id" placeholder="Enter your admin_id" required>
+                    <input type="submit" value="Sign In">
+                    
+                </form>
+
+    </div>
+
+</body>
+</html>
